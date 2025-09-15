@@ -62,12 +62,11 @@ while continueCalc == True:
 		result = mod_numbers(num1, num2)
 	elif user_option == '^':
 		result = power_of_numbers(num1, num2)
-	else:
-		print('invalid operator')
+
 	print(result)
 	validAnswer = ''
 	while validAnswer != 'y' and validAnswer != 'n':
-		validAnswer = input('Would you like to preform another calculation y/n: ')
+		validAnswer = input('Would you like to perform another calculation y/n: ')
 		if validAnswer == 'y':
 			break
 		if validAnswer == 'n':
